@@ -19,7 +19,7 @@
         btn.frame=CGRectMake(0, 0, 100, 50);
         [btn setTitle:@"leftview" forState:UIControlStateNormal];
         btn.center=CGPointMake(140, 264);
-        [btn addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
     }
     return self;
