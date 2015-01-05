@@ -13,6 +13,8 @@
 		BE2C10FC1A5ACA2B00852D51 /* BlueConTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C10FB1A5ACA2B00852D51 /* BlueConTests.m */; };
 		BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C11061A5ACB9F00852D51 /* MainViewController.m */; };
 		BE2C11091A5ACB9F00852D51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2C11071A5ACB9F00852D51 /* MainViewController.xib */; };
+		BE2C110E1A5ACEC300852D51 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C110D1A5ACEC300852D51 /* LeftView.m */; };
+		BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C11101A5AD02F00852D51 /* CenterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		BE2C11051A5ACB9F00852D51 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		BE2C11061A5ACB9F00852D51 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BE2C11071A5ACB9F00852D51 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BE2C110C1A5ACEC300852D51 /* LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftView.h; path = ../LeftView.h; sourceTree = "<group>"; };
+		BE2C110D1A5ACEC300852D51 /* LeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftView.m; path = ../LeftView.m; sourceTree = "<group>"; };
+		BE2C110F1A5AD02F00852D51 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
+		BE2C11101A5AD02F00852D51 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,10 @@
 		BE2C10DE1A5ACA2B00852D51 /* BlueCon */ = {
 			isa = PBXGroup;
 			children = (
+				BE2C110F1A5AD02F00852D51 /* CenterView.h */,
+				BE2C11101A5AD02F00852D51 /* CenterView.m */,
+				BE2C110C1A5ACEC300852D51 /* LeftView.h */,
+				BE2C110D1A5ACEC300852D51 /* LeftView.m */,
 				BE2C11051A5ACB9F00852D51 /* MainViewController.h */,
 				BE2C11061A5ACB9F00852D51 /* MainViewController.m */,
 				BE2C11071A5ACB9F00852D51 /* MainViewController.xib */,
@@ -216,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2C10E51A5ACA2B00852D51 /* AppDelegate.m in Sources */,
+				BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */,
 				BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */,
 				BE2C10E21A5ACA2B00852D51 /* main.m in Sources */,
+				BE2C110E1A5ACEC300852D51 /* LeftView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

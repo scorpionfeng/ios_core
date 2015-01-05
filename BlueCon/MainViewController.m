@@ -13,10 +13,23 @@
 @end
 
 @implementation MainViewController
+@synthesize leftView;
+@synthesize centerView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    CGRect screen =[[UIScreen mainScreen] bounds];
+    CGFloat width=screen.size.width;
+    CGFloat height=screen.size.height;
+    
+    leftView =[[LeftView alloc] init];
+    leftView.frame=CGRectMake(0, 0, width,height);
+    [self.view addSubview:leftView];
+    
+    centerView=[[CenterView alloc] init];
+    centerView.frame=CGRectMake(0, 0, width, height);
+    [self.view addSubview:centerView ];
+    
 }
 
 - (void)didReceiveMemoryWarning {

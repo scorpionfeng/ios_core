@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LeftView.h"
+#import "CenterView.h"
 
 @interface MainViewController : UIViewController
+
+@property (strong,nonatomic) LeftView *leftView;
+@property (strong,nonatomic) CenterView *centerView;
 
 @end
