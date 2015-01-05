@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  BlueCon
 //
 //  Created by ken on 15-1-5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

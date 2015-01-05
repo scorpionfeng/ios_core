@@ -13,10 +13,15 @@
 @end
 
 @implementation AppDelegate
+@synthesize mainController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.mainController=[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    [self.window addSubview:self.mainController.view];
+    [self.window makeKeyAndVisible];
+  
     return YES;
 }
 

@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		BE2C10E21A5ACA2B00852D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C10E11A5ACA2B00852D51 /* main.m */; };
 		BE2C10E51A5ACA2B00852D51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C10E41A5ACA2B00852D51 /* AppDelegate.m */; };
-		BE2C10E81A5ACA2B00852D51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C10E71A5ACA2B00852D51 /* ViewController.m */; };
-		BE2C10EB1A5ACA2B00852D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C10E91A5ACA2B00852D51 /* Main.storyboard */; };
 		BE2C10ED1A5ACA2B00852D51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C10EC1A5ACA2B00852D51 /* Images.xcassets */; };
-		BE2C10F01A5ACA2B00852D51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2C10EE1A5ACA2B00852D51 /* LaunchScreen.xib */; };
 		BE2C10FC1A5ACA2B00852D51 /* BlueConTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C10FB1A5ACA2B00852D51 /* BlueConTests.m */; };
+		BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C11061A5ACB9F00852D51 /* MainViewController.m */; };
+		BE2C11091A5ACB9F00852D51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2C11071A5ACB9F00852D51 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		BE2C10E11A5ACA2B00852D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE2C10E31A5ACA2B00852D51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE2C10E41A5ACA2B00852D51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE2C10E61A5ACA2B00852D51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE2C10E71A5ACA2B00852D51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BE2C10EA1A5ACA2B00852D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2C10EC1A5ACA2B00852D51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BE2C10EF1A5ACA2B00852D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE2C10F51A5ACA2B00852D51 /* BlueConTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueConTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2C10FA1A5ACA2B00852D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE2C10FB1A5ACA2B00852D51 /* BlueConTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueConTests.m; sourceTree = "<group>"; };
+		BE2C11051A5ACB9F00852D51 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BE2C11061A5ACB9F00852D51 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BE2C11071A5ACB9F00852D51 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +79,12 @@
 		BE2C10DE1A5ACA2B00852D51 /* BlueCon */ = {
 			isa = PBXGroup;
 			children = (
+				BE2C11051A5ACB9F00852D51 /* MainViewController.h */,
+				BE2C11061A5ACB9F00852D51 /* MainViewController.m */,
+				BE2C11071A5ACB9F00852D51 /* MainViewController.xib */,
 				BE2C10E31A5ACA2B00852D51 /* AppDelegate.h */,
 				BE2C10E41A5ACA2B00852D51 /* AppDelegate.m */,
-				BE2C10E61A5ACA2B00852D51 /* ViewController.h */,
-				BE2C10E71A5ACA2B00852D51 /* ViewController.m */,
-				BE2C10E91A5ACA2B00852D51 /* Main.storyboard */,
 				BE2C10EC1A5ACA2B00852D51 /* Images.xcassets */,
-				BE2C10EE1A5ACA2B00852D51 /* LaunchScreen.xib */,
 				BE2C10DF1A5ACA2B00852D51 /* Supporting Files */,
 			);
 			path = BlueCon;
@@ -199,9 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2C10EB1A5ACA2B00852D51 /* Main.storyboard in Resources */,
-				BE2C10F01A5ACA2B00852D51 /* LaunchScreen.xib in Resources */,
 				BE2C10ED1A5ACA2B00852D51 /* Images.xcassets in Resources */,
+				BE2C11091A5ACB9F00852D51 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2C10E81A5ACA2B00852D51 /* ViewController.m in Sources */,
 				BE2C10E51A5ACA2B00852D51 /* AppDelegate.m in Sources */,
+				BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */,
 				BE2C10E21A5ACA2B00852D51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +238,6 @@
 			targetProxy = BE2C10F61A5ACA2B00852D51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BE2C10E91A5ACA2B00852D51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE2C10EA1A5ACA2B00852D51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BE2C10EE1A5ACA2B00852D51 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE2C10EF1A5ACA2B00852D51 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE2C10FD1A5ACA2B00852D51 /* Debug */ = {
