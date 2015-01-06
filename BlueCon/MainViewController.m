@@ -24,12 +24,17 @@
     
     leftView =[[LeftView alloc] init];
     leftView.frame=CGRectMake(0, 0, width,height);
+    leftView.delegate=self;
     [self.view addSubview:leftView];
     
     centerView=[[CenterView alloc] init];
     centerView.frame=CGRectMake(0, 0, width, height);
     [self.view addSubview:centerView ];
     
+}
+
+-(void) passValue:(NSString *) value{
+    NSLog(@"string= %@",value);
 }
 
 - (void)didReceiveMemoryWarning {
