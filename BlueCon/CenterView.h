@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-#define MAX_CENTER_X 420
+#define MAX_CENTER_X 360
 #define BOUND_X 280
 @interface CenterView : UIView{
     UIPanGestureRecognizer  * panGestureRecognizer;

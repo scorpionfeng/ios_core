@@ -31,6 +31,8 @@
     centerView.frame=CGRectMake(0, 0, width, height);
     [self.view addSubview:centerView ];
     
+   
+    
 }
 
 -(void) passValue:(NSString *) value{
