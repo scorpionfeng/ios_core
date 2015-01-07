@@ -10,7 +10,10 @@
 #import "LeftView.h"
 #import "CenterView.h"
 
-@interface MainViewController : UIViewController
+
+
+
+@interface MainViewController : UIViewController<PassValue>
 
 @property (strong,nonatomic) LeftView *leftView;
 @property (strong,nonatomic) CenterView *centerView;

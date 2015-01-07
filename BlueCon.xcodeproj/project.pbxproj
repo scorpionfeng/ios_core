@@ -44,6 +44,7 @@
 		BE2C110D1A5ACEC300852D51 /* LeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftView.m; path = ../LeftView.m; sourceTree = "<group>"; };
 		BE2C110F1A5AD02F00852D51 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
 		BE2C11101A5AD02F00852D51 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		BED4F9911A5C3B4E00EDD53E /* PassValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		BE2C10DE1A5ACA2B00852D51 /* BlueCon */ = {
 			isa = PBXGroup;
 			children = (
+				BED4F9911A5C3B4E00EDD53E /* PassValue.h */,
 				BE2C110F1A5AD02F00852D51 /* CenterView.h */,
 				BE2C11101A5AD02F00852D51 /* CenterView.m */,
 				BE2C110C1A5ACEC300852D51 /* LeftView.h */,
@@ -401,6 +403,7 @@
 				BE2C11011A5ACA2B00852D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE2C11021A5ACA2B00852D51 /* Build configuration list for PBXNativeTarget "BlueConTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +412,7 @@
 				BE2C11041A5ACA2B00852D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

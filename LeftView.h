@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PassValue.h"
 
 @interface LeftView : UIView
+@property (strong,nonatomic) NSObject<PassValue> *delegate;
 
 @end

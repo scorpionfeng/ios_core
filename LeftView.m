@@ -9,7 +9,7 @@
 #import "LeftView.h"
 
 @implementation LeftView
-
+@synthesize delegate;
 -(id)initWithFrame:(CGRect)frame{
     
     self=[super initWithFrame:frame];
@@ -26,6 +26,7 @@
 }
 
 -(void)onClick:(UIButton *)button{
-    NSLog(@"leftView button pressed");
+    [self.delegate passValue:@"hello"];
+    
 }
 @end
