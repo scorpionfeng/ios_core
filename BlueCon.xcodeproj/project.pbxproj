@@ -15,6 +15,7 @@
 		BE2C11091A5ACB9F00852D51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2C11071A5ACB9F00852D51 /* MainViewController.xib */; };
 		BE2C110E1A5ACEC300852D51 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C110D1A5ACEC300852D51 /* LeftView.m */; };
 		BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C11101A5AD02F00852D51 /* CenterView.m */; };
+		BEFFE24E1A5D8B690011366F /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFFE24D1A5D8B690011366F /* SecViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		BE2C110F1A5AD02F00852D51 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
 		BE2C11101A5AD02F00852D51 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
 		BED4F9911A5C3B4E00EDD53E /* PassValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValue.h; sourceTree = "<group>"; };
+		BEFFE24C1A5D8B690011366F /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		BEFFE24D1A5D8B690011366F /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		BE2C10DE1A5ACA2B00852D51 /* BlueCon */ = {
 			isa = PBXGroup;
 			children = (
+				BEFFE24C1A5D8B690011366F /* SecViewController.h */,
+				BEFFE24D1A5D8B690011366F /* SecViewController.m */,
 				BED4F9911A5C3B4E00EDD53E /* PassValue.h */,
 				BE2C110F1A5AD02F00852D51 /* CenterView.h */,
 				BE2C11101A5AD02F00852D51 /* CenterView.m */,
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFFE24E1A5D8B690011366F /* SecViewController.m in Sources */,
 				BE2C10E51A5ACA2B00852D51 /* AppDelegate.m in Sources */,
 				BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */,
 				BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */,

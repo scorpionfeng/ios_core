@@ -20,7 +20,7 @@
         self.backgroundColor=[UIColor greenColor];
         
         UIButton *leftUpBtn=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-        leftUpBtn.frame=CGRectMake(10, 20, 40, 40);
+        leftUpBtn.frame=CGRectMake(10, 70, 40, 40);
         [leftUpBtn setTitle:@"扫描" forState:UIControlStateNormal];
 
         [leftUpBtn addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];

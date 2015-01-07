@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LeftView.h"
 #import "CenterView.h"
+#import "SecViewController.h"
 
 
 

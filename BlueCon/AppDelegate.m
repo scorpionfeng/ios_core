@@ -19,8 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.mainController=[[MainViewController alloc] init];
-    //self.mainController=[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
-   [self.window addSubview:self.mainController.view];
+    self.mainController.title=@"Bluetooth Controller";
+   
+    UINavigationController * navController=[[UINavigationController alloc] initWithRootViewController:mainController];
+    self.window.rootViewController=navController;
+    
+//   [self.window addSubview:self.mainController.view];
 //    self.window.rootViewController=self.mainController;
     [self.window makeKeyAndVisible];
   

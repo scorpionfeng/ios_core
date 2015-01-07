@@ -37,6 +37,8 @@
 
 -(void) passValue:(NSString *) value{
     NSLog(@"string= %@",value);
+    SecViewController *secvc=[[SecViewController alloc] init];
+    [self.navigationController pushViewController:secvc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
