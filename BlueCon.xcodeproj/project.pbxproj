@@ -15,6 +15,8 @@
 		BE2C11091A5ACB9F00852D51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2C11071A5ACB9F00852D51 /* MainViewController.xib */; };
 		BE2C110E1A5ACEC300852D51 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C110D1A5ACEC300852D51 /* LeftView.m */; };
 		BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C11101A5AD02F00852D51 /* CenterView.m */; };
+		BEAA16AD1ADAB9E60064E692 /* ScanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA16AC1ADAB9E60064E692 /* ScanModel.m */; };
+		BEAA16B01ADABA9F0064E692 /* ScanTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA16AF1ADABA9F0064E692 /* ScanTask.m */; };
 		BEFFE24E1A5D8B690011366F /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFFE24D1A5D8B690011366F /* SecViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,12 @@
 		BE2C110D1A5ACEC300852D51 /* LeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftView.m; path = ../LeftView.m; sourceTree = "<group>"; };
 		BE2C110F1A5AD02F00852D51 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
 		BE2C11101A5AD02F00852D51 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		BEAA16AB1ADAB9E60064E692 /* ScanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanModel.h; sourceTree = "<group>"; };
+		BEAA16AC1ADAB9E60064E692 /* ScanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanModel.m; sourceTree = "<group>"; };
+		BEAA16AE1ADABA9F0064E692 /* ScanTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanTask.h; sourceTree = "<group>"; };
+		BEAA16AF1ADABA9F0064E692 /* ScanTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanTask.m; sourceTree = "<group>"; };
+		BEAA16B11ADABD630064E692 /* ScanTaskProto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanTaskProto.h; sourceTree = "<group>"; };
+		BEAA16B21ADAC0AC0064E692 /* ScanModelProto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanModelProto.h; sourceTree = "<group>"; };
 		BED4F9911A5C3B4E00EDD53E /* PassValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValue.h; sourceTree = "<group>"; };
 		BEFFE24C1A5D8B690011366F /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
 		BEFFE24D1A5D8B690011366F /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
@@ -89,6 +97,8 @@
 		BE2C10DE1A5ACA2B00852D51 /* BlueCon */ = {
 			isa = PBXGroup;
 			children = (
+				BEAA16AA1ADAB89A0064E692 /* task */,
+				BEAA16A91ADAB88C0064E692 /* model */,
 				BEFFE24C1A5D8B690011366F /* SecViewController.h */,
 				BEFFE24D1A5D8B690011366F /* SecViewController.m */,
 				BED4F9911A5C3B4E00EDD53E /* PassValue.h */,
@@ -131,6 +141,26 @@
 				BE2C10FA1A5ACA2B00852D51 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEAA16A91ADAB88C0064E692 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA16AB1ADAB9E60064E692 /* ScanModel.h */,
+				BEAA16AC1ADAB9E60064E692 /* ScanModel.m */,
+				BEAA16B21ADAC0AC0064E692 /* ScanModelProto.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BEAA16AA1ADAB89A0064E692 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA16AE1ADABA9F0064E692 /* ScanTask.h */,
+				BEAA16AF1ADABA9F0064E692 /* ScanTask.m */,
+				BEAA16B11ADABD630064E692 /* ScanTaskProto.h */,
+			);
+			name = task;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +266,8 @@
 				BE2C10E51A5ACA2B00852D51 /* AppDelegate.m in Sources */,
 				BE2C11111A5AD02F00852D51 /* CenterView.m in Sources */,
 				BE2C11081A5ACB9F00852D51 /* MainViewController.m in Sources */,
+				BEAA16AD1ADAB9E60064E692 /* ScanModel.m in Sources */,
+				BEAA16B01ADABA9F0064E692 /* ScanTask.m in Sources */,
 				BE2C10E21A5ACA2B00852D51 /* main.m in Sources */,
 				BE2C110E1A5ACEC300852D51 /* LeftView.m in Sources */,
 			);

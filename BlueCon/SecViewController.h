@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScanModel.h"
+#import "ScanModelProto.h"
 
-@interface SecViewController : UIViewController
+@interface SecViewController : UIViewController<ScanModelProto>
 
 @end

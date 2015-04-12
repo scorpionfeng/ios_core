@@ -31,7 +31,35 @@
     UIView *baseView=[[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     baseView.backgroundColor=[UIColor purpleColor];
     self.title=@"color pick";
-    self.view=baseView;
+       self.view=baseView;
+    
+    UIButton *scan=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [scan addTarget:self action:@selector(scan) forControlEvents:UIControlEventTouchUpInside];
+    scan.frame=CGRectMake(30, 30, 80, 20);
+    scan.center=CGPointMake(140, 264);
+     [scan setTitle:@"scan" forState:UIControlStateNormal];
+//    [self.view addSubview:scan];
+    [baseView addSubview:scan];
+    
+    
+ 
+//    self.view mak
+
+}
+
+
+
+-(void)scan{
+    
+    ScanModel *sm=[[ScanModel alloc] init];
+    sm.mDelegate=self;
+    [sm scan];
+    
+    
+}
+
+-(void)modelRes:(int)re url:(NSString *)url{
+    NSLog(@"url=%@,and result= %i",url,re);
 }
 
 /*
